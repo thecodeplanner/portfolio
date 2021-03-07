@@ -12,11 +12,56 @@ code {
     monospace;
 }
 
+.main-container {
+  min-height: 90vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+   padding-bottom: 80px; /* height of your footer */
+ }
+
+
+.navbar {
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block; 
+  padding: 20px;
+  font-size: 20px;
+  
+}
+
 .homepage-container {
   text-align: center;
 }
 
 .homepage {
+  padding-top: 5%;
   height: 75%;
   width: 75%;
+ 
+}
+
+.about {
+  text-align: center;
+}
+
+.profile-img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.projects {
+  text-align: center;
+}
+
+#footer {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom:15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
