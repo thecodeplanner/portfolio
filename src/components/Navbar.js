@@ -4,20 +4,21 @@ function Navbar() {
     return (
         <div className='navbar'>
             <NavLink to='/' exact>
-                <li>home</li>
+                <li>HOME</li>
             </NavLink>
             <NavLink to='/about' exact>
-                <li>about me</li>
+                <li>ABOUT ME</li>
             </NavLink>
     
             <NavLink to='/projects' exact>
-                <li>projects</li>
+                <li>PROJECTS</li>
             </NavLink>
-            
+            <a target='_blank' href='https://thecodeplanner.medium.com/'><li>BLOG</li></a>
             <NavLink to='skills' exact>
-                <li>skills</li>
+                <li>SKILLS</li>
             </NavLink>   
         </div>
+        
     )
 }
 

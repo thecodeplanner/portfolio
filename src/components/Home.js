@@ -3,7 +3,7 @@ function Home() {
 
 return (
     <div className='homepage-container'>
-        <img className='homepage' src="melissa.png" alt='homepage' />
+        <img className='homepage' src="welcome.png" alt='homepage' />
     </div>
 )
 }

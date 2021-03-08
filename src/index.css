@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -26,9 +28,11 @@ code {
 }
 
 .navbar li {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #d76249;
   display: inline-block; 
   padding: 20px;
-  font-size: 20px;
+  font-size: 40px;
   
 }
 
@@ -44,6 +48,8 @@ code {
 }
 
 .about {
+  font-family: 'Montserrat', sans-serif;
+  color: #474646;
   text-align: center;
 }
 
@@ -54,10 +60,28 @@ code {
 }
 
 .projects {
+  font-family: 'Montserrat', sans-serif;
+  color: #474646;
+  text-align: center;
+}
+
+.screenshots {
+  height: 50%;
+  width: 50%;
+  margin: 10px;
+  border: 1px solid #474646;
+  border-radius: 5px;
+}
+
+.skills {
+  font-family: 'Montserrat', sans-serif;
+  color: #474646;
   text-align: center;
 }
 
 #footer {
+  font-family: 'Montserrat', sans-serif;
+  color: #474646;
   font-size: 15px;
   text-align: center;
   padding-bottom:15px;
