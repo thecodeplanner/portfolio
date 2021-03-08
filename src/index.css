@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Montserrat:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Fira+Code&family=Montserrat:ital,wght@0,300;1,300&display=swap');
 
 body {
   margin: 0;
@@ -19,8 +19,18 @@ code {
   overflow: hidden;
   display: block;
   position: relative;
-   padding-bottom: 80px; /* height of your footer */
+  margin: 25px;;
+  padding-bottom: 80px; /* height of your footer */
  }
+
+ a {
+  color: #d76249;
+  
+}
+
+a:hover {
+  color: #cccc7f;
+}
 
 
 .navbar {
@@ -28,12 +38,20 @@ code {
 }
 
 .navbar li {
+  display: inline-block;
   font-family: 'Big Shoulders Display', cursive;
   color: #d76249;
+  padding: 20px;
+  font-size: 35px;
+}
+
+
+.navbar li:hover {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #cccc7f;
   display: inline-block; 
   padding: 20px;
-  font-size: 40px;
-  
+  font-size: 35px;
 }
 
 .homepage-container {
@@ -41,28 +59,47 @@ code {
 }
 
 .homepage {
-  padding-top: 5%;
-  height: 75%;
-  width: 75%;
+  padding-top: 10%;
+  height: 60%;
+  width: 60%;
  
 }
 
-.about {
-  font-family: 'Montserrat', sans-serif;
+.about, .connect {
+  font-family: 'Fira Code', monospace;
   color: #474646;
   text-align: center;
 }
+
+.title {
+  font-family: 'Fira Code', monospace;
+  font-size: 25px;
+  color: #474646;
+
+}
+
+.bio {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
 
 .profile-img {
   height: 15%;
   width: 15%;
   border-radius: 50%;
+  border: 3px solid #f5d6c3;
+  margin: 10px;
 }
 
 .projects {
   font-family: 'Montserrat', sans-serif;
   color: #474646;
   text-align: center;
+}
+
+.description {
+  font-style: italic;
 }
 
 .screenshots {
