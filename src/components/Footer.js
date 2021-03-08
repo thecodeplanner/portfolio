@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div id='footer'>
-            <span> created by melissa mach</span>
+            <span> <i className='wrench icon'></i>created by melissa mach</span>
         </div>
     )
 }
