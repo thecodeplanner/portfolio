@@ -54,11 +54,11 @@ a:hover {
   font-size: 35px;
 }
 
-.homepage-container {
+.homepage {
   text-align: center;
 }
 
-.homepage {
+.homepage-image {
   padding-top: 10%;
   height: 60%;
   width: 60%;
@@ -75,12 +75,15 @@ a:hover {
   font-family: 'Fira Code', monospace;
   font-size: 25px;
   color: #474646;
+  text-align: center;
 
 }
 
 .bio {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  text-align: center;
+
 }
 
 
