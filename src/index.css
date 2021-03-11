@@ -78,7 +78,7 @@ code {
 
 .connect-icons {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .title {
@@ -141,9 +141,9 @@ code {
 #footer {
   font-family: 'Montserrat', sans-serif;
   color: #474646;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
-  padding-bottom:15px;
+  padding-bottom: 10px;
   position: absolute;
   bottom: 0;
   width: 100%;
