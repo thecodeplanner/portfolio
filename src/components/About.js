@@ -1,10 +1,11 @@
 function About() {
     return (
         <>
-        <h1 className='title'>Get to know me!</h1>
+        
         <div className='about ui raised segment'>
+        
             <img className='profile-img' src='profile.png' alt='profile'></img>
-            
+            <h1 className='title'>Get to know me!</h1>
             <div className='ui two column centered grid'>
                 <div className='column'>
                     <p className='text-content'><i className='code icon'></i> Full-stack software engineer with experience in Ruby on Rails and JavaScript based programming.</p>

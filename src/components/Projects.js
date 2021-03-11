@@ -13,10 +13,7 @@ function Project() {
     
     return (
         <div className='projects'>
-            <h1 className='title'> Check out my work!</h1>
             {project}
-        
-            
         </div>
     )
 }

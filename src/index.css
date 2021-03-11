@@ -64,8 +64,8 @@ code {
 
 .homepage-image {
   padding-top: 10%;
-  height: 60%;
-  width: 60%;
+  height: 70%;
+  width: 70%;
  
 }
 
@@ -86,6 +86,7 @@ code {
   font-size: 28px;
   color: #474646;
   text-align: center;
+  padding-top: 15px;
 
 }
 
@@ -101,7 +102,7 @@ code {
   width: 15%;
   border-radius: 50%;
   border: 3px solid #f5d6c3;
-  margin: 25px;
+  margin-top: 15px;
 }
 
 .projects {
@@ -111,10 +112,11 @@ code {
 }
 
 .proj-name {
-  color: #eb9376;
-  padding-top: 10px;
-  font-family: 'Big Shoulders Display', cursive;
-  font-size: 35px;
+  font-family: 'Fira Code', monospace;
+  font-size: 28px;
+  color: #474646;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .description {
