@@ -22,14 +22,14 @@ code {
   display: block;
   position: relative;
   margin: 25px;;
-  padding-bottom: 80px; /* height of your footer */
+  padding-bottom: 60px; /* height of your footer */
  }
 
  i {
    color: #1e212d
  }
  .link {
-  color: #b68973;
+  color:  #b68973;
   background-color: #faf3e0
   
 }
@@ -62,7 +62,7 @@ code {
 
 .homepage {
   text-align: center;
-  margin: 10%;
+  margin: 12%;
 
 }
 
@@ -70,15 +70,9 @@ code {
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   color: #faf3e0;
-  margin: 25px;
+  margin: 35px;
 }
 
-/* .homepage-image {
-  padding-top: 10%;
-  height: 70%;
-  width: 70%;
- 
-} */
 
 .about, .connect {
   font-family: 'Fira Code', monospace;
@@ -103,7 +97,7 @@ code {
 
 .text-content {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
 
 }
@@ -116,6 +110,14 @@ code {
   margin-top: 15px;
 }
 
+.intro {
+  font-family: 'Fira Code', monospace;
+  color: #faf3e0;
+  font-size: 25px;
+  padding-top: 30px;
+  margin: 5%;
+}
+
 .projects {
   font-family: 'Montserrat', sans-serif;
   color: #1e212d;
@@ -123,21 +125,20 @@ code {
 }
 
 .proj-name {
-  font-family: 'Fira Code', monospace;
-  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   color: #1e212d;
-  text-align: center;
   padding-top: 15px;
 }
 
 .description {
   font-style: italic;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .screenshots {
-  height: 50%;
-  width: 50%;
+  height: 30%;
+  width: 30%;
   margin: 10px;
   border: 1px solid #1e212d;
   border-radius: 5px;
@@ -154,7 +155,6 @@ code {
   color: #1e212d;
   font-size: 12px;
   text-align: center;
-  padding-bottom: 10px;
   position: absolute;
   bottom: 0;
   width: 100%;
