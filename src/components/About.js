@@ -2,7 +2,7 @@ function About() {
     return (
         <>
         
-        <div className='about ui raised segment'>
+        <div className='about ui raised segment' style={{backgroundColor:'#eabf9f'}}>
         
             <img className='profile-img' src='profile.png' alt='profile'></img>
             <h1 className='title'>Get to know me!</h1>

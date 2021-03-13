@@ -7,11 +7,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
 }
 
 .main-container {
@@ -24,16 +26,16 @@ code {
  }
 
  i {
-   color: #eeaa94
+   color: #1e212d
  }
  .link {
-  color: #d76249;
-  background-color: #faf1e7
+  color: #b68973;
+  background-color: #faf3e0
   
 }
 
 .link:hover {
-  color: #474646;
+  color: #1e212d;
 }
 
 
@@ -44,7 +46,7 @@ code {
 .navbar li {
   display: inline-block;
   font-family: 'Big Shoulders Display', cursive;
-  color: #d76249;
+  color: #b68973;
   padding: 20px;
   font-size: 35px;
 }
@@ -52,7 +54,7 @@ code {
 
 .navbar li:hover {
   font-family: 'Big Shoulders Display', cursive;
-  color: #cccc7f;
+  color: #1e212d;
   display: inline-block; 
   padding: 20px;
   font-size: 35px;
@@ -60,18 +62,27 @@ code {
 
 .homepage {
   text-align: center;
+  margin: 10%;
+
 }
 
-.homepage-image {
+.homepage-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: #faf3e0;
+  margin: 25px;
+}
+
+/* .homepage-image {
   padding-top: 10%;
   height: 70%;
   width: 70%;
  
-}
+} */
 
 .about, .connect {
   font-family: 'Fira Code', monospace;
-  color: #474646;
+  color: #1e212d;
   text-align: center;
   font-size: 20px;
 }
@@ -84,7 +95,7 @@ code {
 .title {
   font-family: 'Fira Code', monospace;
   font-size: 28px;
-  color: #474646;
+  color: #faf3e0;
   text-align: center;
   padding-top: 15px;
 
@@ -101,20 +112,20 @@ code {
   height: 15%;
   width: 15%;
   border-radius: 50%;
-  border: 3px solid #f5d6c3;
+  border: 3px solid #b68973;
   margin-top: 15px;
 }
 
 .projects {
   font-family: 'Montserrat', sans-serif;
-  color: #474646;
+  color: #1e212d;
   text-align: center;
 }
 
 .proj-name {
   font-family: 'Fira Code', monospace;
   font-size: 28px;
-  color: #474646;
+  color: #1e212d;
   text-align: center;
   padding-top: 15px;
 }
@@ -128,19 +139,19 @@ code {
   height: 50%;
   width: 50%;
   margin: 10px;
-  border: 1px solid #474646;
+  border: 1px solid #1e212d;
   border-radius: 5px;
 }
 
 .skills {
   font-family: 'Montserrat', sans-serif;
-  color: #474646;
+  color: #1e212d;
   text-align: center;
 }
 
 #footer {
   font-family: 'Montserrat', sans-serif;
-  color: #474646;
+  color: #1e212d;
   font-size: 12px;
   text-align: center;
   padding-bottom: 10px;
