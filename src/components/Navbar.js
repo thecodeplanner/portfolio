@@ -12,9 +12,9 @@ function Navbar() {
             <NavLink to='/about' exact>
                 <li>ABOUT ME</li>
             </NavLink>
-            <NavLink to='skills' exact>
+            {/* <NavLink to='skills' exact>
                 <li>SKILLS</li>
-            </NavLink>  
+            </NavLink>   */}
             
     
           
