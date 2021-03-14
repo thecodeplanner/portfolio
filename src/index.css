@@ -94,7 +94,7 @@ code {
   font-family: 'Fira Code', monospace;
   color: #1e212d;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 20px;
 }
 
@@ -172,6 +172,15 @@ code {
   text-align: center;
 }
 
+.tech-icons{
+  padding-top: 10px;
+}
+
+#toolbox {
+  font-size: 50px;
+  color: #faf3e0;
+}
+
 #footer {
   font-family: 'Montserrat', sans-serif;
   color: #1e212d;
@@ -179,9 +188,4 @@ code {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-#toolbox {
-  font-size: 50px;
-  color: #faf3e0;
 }
