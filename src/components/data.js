@@ -2,7 +2,7 @@
 export const projectArray = [
     {
         name: 'Remindful',
-        description: 'Self-care journaling app made for users to keep track of their daily goals including their thoughts and feelings each day',
+        description: 'Self-care journaling app made for users to keep track of their goals including their thoughts and feelings each day',
         github: 'https://github.com/thecodeplanner/remindful-frontend',
         image: ['remindful1.png', 'remindful2.png', 'remindful3.png'],
         video: 'https://www.youtube.com/watch?v=xM5kdWkimJo',

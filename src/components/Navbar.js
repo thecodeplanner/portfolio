@@ -9,12 +9,13 @@ function Navbar() {
             <NavLink to='/projects' exact>
                 <li>PROJECTS</li>
             </NavLink>
-            <NavLink to='skills' exact>
-                <li>SKILLS</li>
-            </NavLink>  
             <NavLink to='/about' exact>
                 <li>ABOUT ME</li>
             </NavLink>
+            <NavLink to='skills' exact>
+                <li>SKILLS</li>
+            </NavLink>  
+            
     
           
             <a target='_blank' href='https://thecodeplanner.medium.com/'><li>BLOG</li></a>
