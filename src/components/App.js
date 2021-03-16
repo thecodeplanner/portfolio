@@ -3,7 +3,6 @@ import Home from './Home'
 import Navbar from './Navbar'
 import About from './About'
 import Projects from './Projects'
-import Skills from './Skills'
 import Footer from './Footer'
 
 function App() {
@@ -21,13 +20,9 @@ function App() {
           <Route exact path='/projects'>
             <Projects />
           </Route>
-          <Route exact path='/skills'>
-            <Skills />
-          </Route>
         </Switch>
         <Footer />
       </Router>
-  
     </div>
   );
 }

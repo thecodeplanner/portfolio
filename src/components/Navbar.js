@@ -11,15 +11,8 @@ function Navbar() {
             </NavLink>
             <NavLink to='/about' exact>
                 <li>ABOUT ME</li>
-            </NavLink>
-            {/* <NavLink to='skills' exact>
-                <li>SKILLS</li>
-            </NavLink>   */}
-            
-    
-          
+            </NavLink>   
             <a target='_blank' href='https://thecodeplanner.medium.com/'><li>BLOG</li></a>
-             
         </div>
         
     )

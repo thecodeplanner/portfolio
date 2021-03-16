@@ -8,9 +8,7 @@ function Project() {
             <ProjectCard key={proj.name} project={proj} />
         )
     })
-   
 
-    
     return (
         <>
         <div className='ui raised segment ' style={{backgroundColor:'#eabf9f'}}>
@@ -20,7 +18,6 @@ function Project() {
             </div>
             </div>
             {project}
-        
         </>
     )
 }
