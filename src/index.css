@@ -39,7 +39,6 @@ code {
   text-decoration: underline;
 }
 
-
 .navbar {
   text-align: right;
 }
@@ -59,6 +58,8 @@ code {
   padding: 20px;
   font-size: 35px;
 }
+
+/* HOME PAGE  */
 
 .homepage {
   text-align: center;
@@ -139,6 +140,8 @@ code {
 
 }
 
+/* PROJECT PAGE  */
+
 .projects {
   font-family: 'Montserrat', sans-serif;
   color: #1e212d;
@@ -167,6 +170,9 @@ code {
   border: 1px solid #1e212d;
   border-radius: 5px;
 }
+
+
+ /* SKILLS SECTIONS IN ABOUT ME */
 
 .skills {
   text-align: center;

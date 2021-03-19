@@ -2,7 +2,7 @@ import { useHistory } from "react-router-dom"
 
 function Home() {
     const history = useHistory()
-
+    
     function viewWork() {
         history.push('/projects')
     }
