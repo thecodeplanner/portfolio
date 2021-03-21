@@ -25,9 +25,13 @@ code {
   padding-bottom: 60px; /* height of your footer */
  }
 
+ /* icons */
+
  i {
    color: #1e212d
  }
+
+ /* navbar and links */
 
  .link {
   color:  #faf3e0;
@@ -121,6 +125,8 @@ code {
   margin-right: 5%;
 
 }
+
+/* about me section */
 
 .profile-img {
   height: 15%;
