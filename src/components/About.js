@@ -26,7 +26,7 @@ function About() {
                     <img className='title' src="https://icongr.am/devicon/bootstrap-plain.svg?size=148&color=faf3e0" alt="bootstrap" align="center" width="60" height="60" />
                     <img className='title' src="https://icongr.am/devicon/git-plain-wordmark.svg?size=148&color=faf3e0" alt="git" align="center" width="70" height="70" />
                     <div className='tech-icons'>
-                        <p className='text-content'>JavaScript (ES6) | React | Ruby | Rails | HTML5 | CSS3 | ActiveRecord | PostgreSQL | Node.js | Git | Heroku </p>
+                        <p className='text-content'>JavaScript (ES6) | React | Ruby | Rails | HTML5 | CSS3 | ActiveRecord | PostgreSQL | Git | Heroku </p>
                         <p className='text-content'>Object Orientated Programming | MVC Framework | RESTful API Patterns</p>
                     </div>
                 </div>
